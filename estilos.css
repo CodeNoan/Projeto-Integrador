@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topnav {
+    width: 100%;
+    background-color: #1e853a;
+    overflow: hidden;
+    padding: 20px 16px; /* Aumenta a largura da barra de navegação de cima para baixo */
+    display: flex;
+    justify-content: center; /* Centraliza os itens da navegação */
+    align-items: center;
+}
+
+.topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: gainsboro;
+    text-align: center;
+    margin: 0 20px; /* Adiciona mais espaço entre os itens da navegação */
+}
+
+.topnav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    padding: 20px;
+    margin-top: 20px; /* Ajusta o espaço para a barra de navegação */
+    font-size: 20px; /* Aumenta o tamanho do texto para 20 pixels */
+}
+
+/* Estilos para o carrossel */
+.carousel {
+    margin: 80px 100px; /* Aumenta ainda mais as margens laterais */
+    border-radius: 15px; /* Adiciona bordas arredondadas */
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%; /* Ajusta o tamanho das imagens para ocupar 100% da largura do contêiner */
+    max-height: 500px; /* Define uma altura máxima para as imagens */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner mantendo a proporção */
+}
