@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EcoExplorador</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    
+
+<div class="topnav">
+    <img src="favicon.ico" alt="Ícone">
+    <h2 style="color: white; margin: 0; padding-right: 20px;">EcoExplorador</h2>
+</div>
+
+<!-- Carrossel de Imagens -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="9d5512e7ef0be8b6aefe2e140e14761f.webp" alt="Primeira imagem">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="c42ce0b075beabc3b7ae7adf2733b60f.jpg" alt="Segunda imagem">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="Conheca-a-Fauna-e-Flora-do-Rio-de-Janeiro.jpg" alt="Terceira imagem">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+    </a>
+</div>
+
+<div class="main">
+    <p>A fauna inclui todos os animais em um ambiente, como mamíferos, aves, répteis e insetos. A diversidade depende do habitat e das condições climáticas. Na Amazônia, há uma grande variedade de animais como jaguares e tucanos, enquanto em desertos, a fauna inclui camelos e lagartos adaptados às condições extremas.</p>
+    <p>A flora refere-se às plantas de uma área, como árvores, arbustos, gramíneas e flores. A diversidade de plantas varia conforme o ambiente. Nas florestas tropicais, há uma grande diversidade de plantas, enquanto no Ártico, predominam líquens e musgos resistentes ao frio.</p>
+    <p>A interação entre fauna e flora é crucial para o equilíbrio dos ecossistemas, com plantas fornecendo alimento e abrigo para animais, que, por sua vez, auxiliam na polinização e dispersão de sementes.</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
