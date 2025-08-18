@@ -1,0 +1,45 @@
+{
+  "biomeDetails": {
+    "amazonia": {
+      "title": "Amazônia",
+      "content": "<p>A Amazônia é a maior floresta tropical do mundo, abrigando uma biodiversidade única. Sua importância vai além do clima, sendo vital para a preservação de inúmeras espécies e para o equilíbrio dos ciclos naturais. Adicionalmente, a Amazônia é fundamental para a regulação global do clima e para a manutenção dos recursos hídricos da região.</p><h4>Fauna e Flora Típica:</h4><ul><li><strong>Fauna:</strong> Onça-pintada (topo de cadeia), boto-cor-de-rosa (rios), preguiça (vida nas árvores) e o peixe-boi (ambiente aquático).</li><li><strong>Flora:</strong> Seringueira, Castanheira, Vitória-régia.</li></ul>"
+    },
+    "caatinga": {
+      "title": "Caatinga",
+      "content": "<p>A Caatinga é um bioma exclusivo do Brasil, caracterizado por sua vegetação resistente à seca e adaptada ao clima semiárido. Desempenha papel crucial na manutenção dos ciclos de água e na sobrevivência de espécies adaptadas a condições extremas. Também possui grande importância cultural e econômica para as populações locais.</p><h4>Fauna e Flora Típica:</h4><ul><li><strong>Fauna:</strong> Ararinha-azul (criticamente ameaçada), tatu-bola (defesa única), mocó.</li><li><strong>Flora:</strong> Cactos como o mandacaru e o xique-xique, juazeiro e umbuzeiro.</li></ul>"
+    },
+    "pantanal": {
+      "title": "Pantanal",
+      "content": "<p>O Pantanal é a maior planície alagável do mundo, com ecossistemas aquáticos e terrestres integrados. Ele oferece um habitat essencial para a fauna e flora, contribuindo para a regulação dos recursos hídricos e mantendo a diversidade biológica.</p><h4>Fauna e Flora Típica:</h4><ul><li><strong>Fauna:</strong> Tuiuiú (ave símbolo), ariranha (vida em rios), jacarés e capivaras.</li><li><strong>Flora:</strong> Ipês, figueiras e palmeiras como o carandá e o buriti.</li></ul>"
+    },
+    "mata-atlantica": {
+      "title": "Mata Atlântica",
+      "content": "<p>A Mata Atlântica, apesar de sua grande fragmentação, é um dos biomas mais biodiversos do planeta, abrigando muitas espécies endêmicas e ameaçadas. Sua conservação é fundamental para preservar a riqueza natural e cultural do Brasil.</p><h4>Fauna e Flora Típica:</h4><ul><li><strong>Fauna:</strong> Mico-leão-dourado (espécie-bandeira), jaguatirica, onça-parda.</li><li><strong>Flora:</strong> Pau-brasil, jacarandá, além de uma infinidade de bromélias e orquídeas.</li></ul>"
+    },
+    "pampa": {
+      "title": "Pampa",
+      "content": "<p>O Pampa, também conhecido como Campos Sulinos, é caracterizado por vastos campos e pastagens, com uma biodiversidade adaptada a climas mais frios. Esse bioma é importante para a agropecuária sustentável e para a preservação de espécies locais.</p><h4>Fauna e Flora Típica:</h4><ul><li><strong>Fauna:</strong> Veado-campeiro, graxaim-do-campo e aves como o quero-quero.</li><li><strong>Flora:</strong> Predominância de gramíneas, com árvores presentes apenas nas matas ciliares.</li></ul>"
+    },
+    "cerrado": {
+      "title": "Cerrado",
+      "content": "<p>Considerada a savana mais rica do mundo, o Cerrado é o segundo maior bioma brasileiro. Sua vegetação é adaptada ao clima sazonal e solos ácidos, e o bioma desempenha um papel fundamental na regulação hídrica nacional, sendo o 'berço das águas' do Brasil.</p><h4>Fauna e Flora Típica:</h4><ul><li><strong>Fauna:</strong> Lobo-guará (pernas longas para campos altos), tamanduá-bandeira e a seriema.</li><li><strong>Flora:</strong> Árvores com casca grossa (resistência ao fogo) como o pequizeiro e o ipê-amarelo.</li></ul>"
+    }
+  },
+  "chartData": {
+    "labels": [
+      "Formações florestais",
+      "Formações savânicas",
+      "Outros"
+    ],
+    "data": [
+      57.3,
+      38.5,
+      4.2
+    ],
+    "moreInfo": [
+      "As formações florestais, como a Floresta Amazônica e a Mata Atlântica, representam a maior parte do desmatamento. São ecossistemas densos e ricos em biodiversidade.",
+      "As formações savânicas, com destaque para o Cerrado, são o segundo tipo de vegetação mais afetado, principalmente pela expansão da agropecuária.",
+      "Esta categoria inclui outras formações vegetais como campos naturais, manguezais e áreas de várzea, que também sofrem com a pressão humana."
+    ]
+  }
+}
